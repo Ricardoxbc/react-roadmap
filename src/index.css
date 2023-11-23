@@ -1,0 +1,44 @@
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+:root {
+  font-family: Roboto, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  width: 97.5%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header > nav {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #40b9ff;
+  position: relative;
+  color: #fff;
+}
+
+header > nav a {
+  text-decoration: none;
+  color: inherit;
+}
